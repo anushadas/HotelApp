@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invoice">
+
+
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/padding10"
+            android:text="Invoice"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:padding="@dimen/padding5"
+            android:textSize="12sp"
+            android:layout_marginLeft="@dimen/padding15"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/background_dark"
+            android:layout_margin="@dimen/padding10"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invoices_headings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/topbar"
+        android:padding="@dimen/padding5"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:padding="@dimen/padding5"
+            android:text="Date"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="@dimen/padding5"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:text="Charges"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:padding="@dimen/padding5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:padding="@dimen/padding10">
+
+        <TextView
+            android:id="@+id/overall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overall charges: "
+            android:padding="@dimen/padding5"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <TextView
+            android:id="@+id/gst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GST + PST :  12%"
+            android:padding="@dimen/padding5"
+            android:textColor="@android:color/background_dark"
+            />
+
+        <TextView
+            android:id="@+id/totalcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:padding="@dimen/padding5"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/invoiceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#eee"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/invoices_headings"
+        android:layout_above="@id/bottombar"
+        ></ListView>
+
+
+
+</RelativeLayout>

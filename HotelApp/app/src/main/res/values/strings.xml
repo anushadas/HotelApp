@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">HotelApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">A Matter</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Home Page -->
+    <string name="h1">OUR SERVICES</string>
+    <string name="h2">COMPLIMENTARY SERVICES</string>
+    <string name="h3">EXPLORE THE CITY</string>
+    <string name="s11">MULTILINGUAL CONCIERGE TEAM</string>
+    <string name="s12">TRANSPORTATION</string>
+    <string name="s13">BUSINESS SERVICES</string>
+    <string name="s14">ALL DAY IN ROOM DINING</string>
+    <string name="s21">WI-FI</string>
+    <string name="s22">MORNING COFFEE</string>
+    <string name="s23">DAILY NEWSPAPER</string>
+    <string name="s24">OVERNIGHT SHOESHINE</string>
+    <string name="s31">PRIVATE CITY TOURS</string>
+    <string name="s32">VIP TICKETS TO SPORTS EVENTS</string>
+    <string name="s33">PRIVATE DINNERS FOR 2</string>
+    <string name="s34">DAY CRUISES</string>
+
+    <!-- Activities Page-->
+    <string name="title_activity_booking1">booking1</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="app_content1">
+        Kayaking remains a popular pastime in sports-centric Vancouver, with locations
+        offering either urban views in False Creek and English Bay, or mountain surroundings
+        at the base of  Indian Arm in Deep Cove. Whatever scenery visitors are looking for
+        when conducting their next adventure, Vancouver will not disappoint.
+    </string>
+    <string name="app_content2">
+        Fans of winter sports will rejoice at the choice of three local mountains just north
+        of Vancouver’s city center, offering a host of skiing, snowboarding, snowshoeing and
+        ice skating opportunities. At Grouse Mountain, which stands 4,100 feet above Vancouver,
+        beginners and experts alike can enjoy perfect runs while enjoying panoramic views of the city.
+    </string>
+    <string name="app_content3">
+        Located two hours from downtown Vancouver is North America’s premier ski resort, Whistler,
+        open all seasons and home to a number of adventure opportunities. Winter activities include
+        skiing, snowshoeing, snowmobiling, dogsledding and more. In the summer, hiking, mountain biking,
+        kayaking, canoeing, all-terrain vehicle tours, white-water rafting, horseback riding, downhill
+        mountain biking and golfing are just some of the fantastic offerings on the menu. For fans of
+        extreme adventure, year-round activities include bungee-jumping and ziplining. For outdoor
+        enthusiasts, this is an all-in-one adventure destination with something in it for everyone.
+    </string>
+
+    <!--Room Service Booking -->
+    <string-array name="breakfastitens">
+        <item><b>Morning Booster</b></item>
+        <item><b>Vista 18 Breakfast</b></item>
+        <item><b>Traditional Benedict</b></item>
+        <item><b>Harbour View Pancakes</b></item>
+    </string-array>
+
+    <string-array name="breakfastprices">
+        <item>15.75</item>
+        <item>17.95</item>
+        <item>18.95</item>
+        <item>18.95</item>
+    </string-array>
+
+    <string-array name="lunchitens">
+        <item><b>Vista 18 Organic Green Salad</b></item>
+        <item><b>Chicken Supreme</b></item>
+        <item><b>Chicken Fingers</b></item>
+        <item><b>Garlic Cheese Flatbread</b></item>
+    </string-array>
+
+    <string-array name="lunchprices">
+        <item>13.65</item>
+        <item>29.20</item>
+        <item>9.20</item>
+        <item>15.95</item>
+    </string-array>
+
+    <string-array name="dessertitens">
+        <item><b>Baked Apple</b></item>
+        <item><b>Vanilla Cheese Cake</b></item>
+        <item><b>Chocolate Bomb</b></item>
+        <item><b>Chocolate Truffles</b></item>
+    </string-array>
+
+    <string-array name="dessertprices">
+        <item>3.54</item>
+        <item>3.54</item>
+        <item>13.5</item>
+        <item>3.58</item>
+    </string-array>
+
+    <!-- Room Page -->
+    <string name="room1Title">Comfort suite\t\t\t\t\t\t\t\t\t\t\t\t\t\t $120</string>
+    <string name="room2Title">Kings suite\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t $180</string>
+    <string name="room3Title">Family suite\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t $220</string>
+
+    <string name="room1">1 queen bed\n
+    This studio has a mini-bar and air conditioning.\n
+
+        •Bathtub   •Air conditioning   •Private bathroom   •Flat-screen TV
+        • Minibar  • Shower  • Safe  • Telephone  • Hairdryer  • Iron  • Free toiletries
+        • Toilet  • Heating  • Wardrobe/Closet  • Coffee machine • Towels  • Linens  • Toilet paper</string>
+    <string name="room2">1 king bed  and  1 sofa bed\n
+        This is our superior suite\n
+        •30 m²   •Bathtub   •Air conditioning   •Private bathroom   •Flat-screen TV
+        • Minibar  • Shower  • Safe  • Telephone  • Hairdryer  • Iron  • Free toiletries  • Toilet
+        • Heating  • Sofa  • Wardrobe/Closet  • Coffee machine  • Towels  • Linens  • Toilet paper  • Sofa bed</string>
+    <string name="room3">1 sofa bed  and  2 queen beds\n
+        This suite is a perfect fit for a family\n
+    •30 m²   •Bathtub   •Air conditioning   •Private bathroom   •Flat-screen TV
+    • Minibar  • Shower  • Safe  • Telephone  • Hairdryer  • Iron  • Free toiletries  • Toilet  • Heating  • Sofa
+        • Wardrobe/Closet  • Coffee machine  • Towels  • Linens  • Toilet paper  • Sofa bed</string>
+
+
+    <!-- Room Service Page -->
+    <string name="app_content1Service">
+        <b>MORNING BOOSTER $15.75</b>\n
+        one free range poached egg, toast, Vista seasonal
+        smoothie\n
+
+        <b>VISTA 18 BREAKFAST $17.95</b>\n
+        two free range eggs any style, choice of ham, bacon or sausage,
+        breakfast potatoes, toast\n
+
+        <b>TRADITIONAL BENEDICT $18.95</b>\n
+        back bacon, smoked salmon or vegetarian, citrus hollandaise,
+        breakfast potatoes\n
+
+        <b>HARBOUR VIEW PANCAKES $15.85</b>\n
+        five pancakes stacked high with fruit compote and
+        maple butter\n
+    </string>
+    <string name="app_content2Service">
+        <b>VISTA 18 ORGANIC GREEN SALAD $13.65</b>\n
+        house greens, edamame, roasted hazelnuts, tomatoes, house vinaigrette\n
+
+        <b>CHICKEN SUPREME $29.20</b>\n
+        compound butter, baby potatoes and seasonal vegetables\n
+
+        <b>CHICKEN FINGERS $9.20</b>\n
+        plum dip, vista greens\n
+
+        <b>GARLIC CHEESE FLATBREAD $15.95</b>\n
+        smoked cheddar, mozzarella\n
+    </string>
+    <string name="app_content3Service">
+        <b>BAKED APPLE  $13.54</b>\n
+        wrapped in puff pastry, garnished with cinnamon sugar\n
+
+        <b>VANILLA CHEESECAKE  $13.54</b>\n
+        vanilla cake genoise with a cream cheese mousse\n
+
+        <b>CHOCOLATE BOMB  $13.54</b>\n
+        chocolate mousse with a caramel centre and a chocolate genoise crust\n
+
+        <b>CHOCOLATE TRUFFLES  $3.58/each</b>\n
+        assorted flavours\n
+    </string>
+
+    <!-- Booking Page -->
+    <string name="channel_name">ChannelName</string>
+    <string name="channel_description">ChannelDescription</string>
+
+</resources>

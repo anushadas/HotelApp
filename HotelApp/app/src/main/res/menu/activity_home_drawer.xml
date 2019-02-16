@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_room"
+            android:icon="@drawable/rooms"
+            android:title="Room" />
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/hotel"
+            android:title="Activities" />
+        <item
+            android:id="@+id/nav_roomservice"
+            android:icon="@drawable/roomservice"
+            android:title="Room Service" />
+        <item
+            android:id="@+id/nav_invoice"
+            android:icon="@drawable/invoice"
+            android:title="Invoice" />
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Rank and Review" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout"
+            android:title="Sign Out" />
+    </group>
+
+    <item android:title="Administrative rights">
+        <menu>
+            <item
+                android:id="@+id/nav_admin"
+                android:icon="@drawable/admin"
+                android:title="Admin Page"
+                android:visible="false"/>
+
+        </menu>
+    </item>
+
+</menu>

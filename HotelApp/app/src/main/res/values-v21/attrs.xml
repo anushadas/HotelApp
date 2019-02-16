@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- to costumire the attribute of the Custom View -->
+<resources>
+    <declare-styleable name="DialView">
+        <attr name="rating" format="integer"/>
+</declare-styleable>
+</resources>
