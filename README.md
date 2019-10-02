@@ -1,8 +1,9 @@
 # HotelApp
-Disclaimer
+-Disclaimer:
 A Matter Hotel mobile app is a project specifically designed for CSIS 4175-070 course at Douglas College for Fall 2018 semester and is not intended for sales of any sort. The material borrowed from the Internet including images, icons, descriptive text are not owned by any of the group members and are used only for educational purposes. Any code not written by authors of the application was taken from online open sources and all the links are put as references at the end of this document.
 The idea, design and implementation, however, belong to the group and together are considered the property of the “A Matter App’s” developers.
-Description
+
+-Description:
 Our app is designed for customers who would like to book a room in the “A Matter” hotel, in Vancouver. It allows our users to browse and book rooms and activities throughout the city, as well as to order food and drinks from our breakfast, lunch and dinner menus. It also enables users to review and rate our services and their stay at our hotel and generate an up-to-date invoice so that they can keep track of their purchases while staying with us. Furthermore, it has administrative features, which allows the hotel managers to view, modify and delete users, products, activities and bookings, so that they can keep track of the hotel’s activities and make any corrections to the information held by the hotel without much effort.
 Functionalities
 	•	Sign Up/ Log In
@@ -20,5 +21,5 @@ The Invoice Page displays all the user’s purchases and bookings, along with pr
 	•	Admin Page
 The Admin Page was designed to allow the hotel manager(s) to review the hotel’s records of customers, bookings, products and activities, as well as sales (by viewing which activities have been booked or which items have been sold). It also enables the manager(s) to make changes to user’s information if needed. This activity also provides tools for updating a user’s first name, last name, and the region. Additionally, it enables the manager(s) to delete users, along with his/her entire history with the hotel. Since the methods for reading and manipulating data are placed inside database event listeners, the data displayed changes automatically with no need to execute queries again.
 
-Additional Help:
+-Additional Help:
 anushadas110@gmail.com
